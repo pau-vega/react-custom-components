@@ -1,0 +1,36 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["**/dist/**"]
+    },
+    "dev": {
+      "persistent": true,
+      "cache": false
+    },
+    "typecheck": {
+      "dependsOn": ["^typecheck"]
+    },
+    "lint": {
+      "dependsOn": ["^lint"]
+    },
+    "format": {
+      "dependsOn": ["^format"]
+    },
+    "test": {
+      "dependsOn": ["^test"]
+    },
+    "test:run": {
+      "dependsOn": ["^test:run"]
+    },
+    "test:coverage": {
+      "dependsOn": ["^test:coverage"]
+    },
+    "clean": {
+      "dependsOn": ["^clean"],
+      "cache": false
+    }
+  }
+}
