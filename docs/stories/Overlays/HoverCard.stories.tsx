@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "@react-custom-components/ui/hover-card"
 import { Button } from "@react-custom-components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@react-custom-components/ui/avatar"

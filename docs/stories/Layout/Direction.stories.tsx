@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { DirectionProvider, useDirection } from "@react-custom-components/ui/direction"
 import { Button } from "@react-custom-components/ui/button"
 

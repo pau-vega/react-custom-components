@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Empty } from "@react-custom-components/ui/empty"
 import { Button } from "@react-custom-components/ui/button"
 import { Inbox, Search, FileX } from "lucide-react"

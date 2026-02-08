@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Calendar } from "@react-custom-components/ui/calendar"
 import { useState } from "react"
 

@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { InputGroup } from "@react-custom-components/ui/input-group"
 import { Input } from "@react-custom-components/ui/input"
 import { Search, Mail } from "lucide-react"

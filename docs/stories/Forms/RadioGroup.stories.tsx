@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { RadioGroup, RadioGroupItem } from "@react-custom-components/ui/radio-group"
 import { Label } from "@react-custom-components/ui/label"
 

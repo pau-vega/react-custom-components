@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Item } from "@react-custom-components/ui/item"
 import { User, Mail, Settings, LogOut } from "lucide-react"
 

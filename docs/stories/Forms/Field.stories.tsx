@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Field } from "@react-custom-components/ui/field"
 import { Input } from "@react-custom-components/ui/input"
 import { Textarea } from "@react-custom-components/ui/textarea"

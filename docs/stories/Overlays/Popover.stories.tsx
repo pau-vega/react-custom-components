@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Popover, PopoverContent, PopoverTrigger } from "@react-custom-components/ui/popover"
 import { Button } from "@react-custom-components/ui/button"
 import { Input } from "@react-custom-components/ui/input"

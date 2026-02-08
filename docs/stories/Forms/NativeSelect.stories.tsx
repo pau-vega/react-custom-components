@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { NativeSelect } from "@react-custom-components/ui/native-select"
 
 const meta = {

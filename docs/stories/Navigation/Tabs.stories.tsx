@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@react-custom-components/ui/tabs"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@react-custom-components/ui/card"
 import { Button } from "@react-custom-components/ui/button"

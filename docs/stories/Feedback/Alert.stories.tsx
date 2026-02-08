@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Alert, AlertDescription, AlertTitle } from "@react-custom-components/ui/alert"
 import { AlertCircle, Info, CheckCircle, XCircle } from "lucide-react"
 

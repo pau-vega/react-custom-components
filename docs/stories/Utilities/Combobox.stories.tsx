@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Combobox } from "@react-custom-components/ui/combobox"
 import { useState } from "react"
 

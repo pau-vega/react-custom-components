@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Spinner } from "@react-custom-components/ui/spinner"
 
 const meta = {

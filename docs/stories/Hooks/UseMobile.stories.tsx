@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { useIsMobile } from "@react-custom-components/ui/hooks/use-mobile"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@react-custom-components/ui/card"
 

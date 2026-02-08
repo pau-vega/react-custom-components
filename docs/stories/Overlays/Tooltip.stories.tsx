@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/react-vite"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@react-custom-components/ui/tooltip"
 import { Button } from "@react-custom-components/ui/button"
 import { Plus } from "lucide-react"
