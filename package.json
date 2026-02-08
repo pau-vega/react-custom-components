@@ -2,9 +2,6 @@
   "name": "react-custom-components",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pau-vega/react-custom-components.git"
@@ -20,8 +17,9 @@
   "homepage": "https://github.com/pau-vega/react-custom-components#readme",
   "dependencies": {
     "@eslint-react/eslint-plugin": "^2.12.2",
+    "@eslint/js": "^10.0.1",
     "@tsconfig/node24": "^24.0.4",
-    "eslint": "^9.39.1",
+    "eslint": "^10.0.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-perfectionist": "^5.4.0",
     "eslint-plugin-prettier": "^5.5.4",
