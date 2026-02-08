@@ -1,6 +1,0 @@
-import{c as x}from"./createLucideIcon-0w86QR-M.js";import{r as h}from"./index-Br2IOmUs.js";import{u as I}from"./empty-BwNtW-GQ.js";import{u as D,a as P,D as b,b as y}from"./DialogTitle-CV3S6r-W.js";import{j as R}from"./jsx-runtime-D_zvdyIk.js";/**
- * @license lucide-react v0.550.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */const k=[["path",{d:"M18 6 6 18",key:"1bl5f8"}],["path",{d:"m6 6 12 12",key:"d8bk6v"}]],E=x("x",k);function M(c){const{children:t,open:a,defaultOpen:s=!1,onOpenChange:d,onOpenChangeComplete:g,disablePointerDismissal:i=!1,modal:l=!0,actionsRef:f,handle:n,triggerId:r,defaultTriggerId:p=null}=c,o=D(!0),u=!!o,e=I(()=>(n==null?void 0:n.store)??new y({open:a??s,activeTriggerId:r!==void 0?r:p,modal:l,disablePointerDismissal:i,nested:u})).current;e.useControlledProp("open",a,s),e.useControlledProp("activeTriggerId",r,p),e.useSyncedValues({disablePointerDismissal:i,nested:u,modal:l}),e.useContextCallback("onOpenChange",d),e.useContextCallback("onOpenChangeComplete",g);const m=e.useState("payload");P({store:e,actionsRef:f,parentContext:o==null?void 0:o.store.context});const C=h.useMemo(()=>({store:e}),[e]);return R.jsx(b.Provider,{value:C,children:typeof t=="function"?t({payload:m}):t})}export{M as D,E as X};
