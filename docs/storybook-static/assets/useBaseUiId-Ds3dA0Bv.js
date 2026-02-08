@@ -1,0 +1,1 @@
+import{a as d,r as s}from"./index-Br2IOmUs.js";const f={...d};let u=0;function l(t,e="mui"){const[a,o]=s.useState(t),c=t||a;return s.useEffect(()=>{a==null&&(u+=1,o(`${e}-${u}`))},[a,e]),c}const n=f.useId;function I(t,e){if(n!==void 0){const a=n();return t??(e?`${e}-${a}`:a)}return l(t,e)}function b(t){return I(t,"base-ui")}export{I as a,b as u};

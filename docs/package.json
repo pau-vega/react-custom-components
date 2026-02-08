@@ -1,0 +1,45 @@
+{
+  "name": "@react-custom-components/docs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "clean": "rm -rf node_modules .turbo storybook-static"
+  },
+  "dependencies": {
+    "@react-custom-components/ui": "workspace:*",
+    "@base-ui/react": "^1.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^3.0.0",
+    "lucide-react": "^0.550.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "cmdk": "^1.1.1",
+    "date-fns": "^4.1.0",
+    "embla-carousel-react": "^8.6.0",
+    "input-otp": "^1.4.2",
+    "next-themes": "^0.4.6",
+    "react-day-picker": "^9.13.1",
+    "react-resizable-panels": "^4.6.2",
+    "recharts": "2.15.4",
+    "sonner": "^2.0.7",
+    "vaul": "^1.1.2"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^8.6.15",
+    "@storybook/addon-essentials": "^8.6.15",
+    "@storybook/addon-interactions": "^8.6.15",
+    "@storybook/react": "^8.6.15",
+    "@storybook/react-vite": "^8.6.15",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "storybook": "^8.6.15",
+    "tailwindcss": "^4.0.0",
+    "typescript": "~5.9.3",
+    "vite": "^6.0.7"
+  }
+}

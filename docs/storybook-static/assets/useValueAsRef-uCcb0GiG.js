@@ -1,0 +1,1 @@
+import{u as r}from"./useIsoLayoutEffect-B3i3ZXBb.js";import{u as n}from"./empty-BwNtW-GQ.js";function c(e){const t=n(f,e).current;return t.next=e,r(t.effect),t}function f(e){const t={current:e,next:e,effect:()=>{t.current=t.next}};return t}export{c as u};

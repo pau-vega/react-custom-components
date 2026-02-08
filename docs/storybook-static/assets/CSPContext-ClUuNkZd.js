@@ -1,0 +1,1 @@
+import{r as t}from"./index-Br2IOmUs.js";function E(e,n=Number.MIN_SAFE_INTEGER,o=Number.MAX_SAFE_INTEGER){return Math.max(n,Math.min(e,o))}const r=t.createContext(void 0),a={disableStyleElements:!1};function u(){return t.useContext(r)??a}export{E as c,u};
